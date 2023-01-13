@@ -35,6 +35,7 @@ const app = new Vue({
                 this.startUpdateTree();
             }
             initConsoleUtil();
+            initGG();
         });
     },
     watch: {
